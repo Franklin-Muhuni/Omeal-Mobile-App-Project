@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "887673196468",
+    "firebase_url": "https://omeal-app-project-default-rtdb.firebaseio.com",
+    "project_id": "omeal-app-project",
+    "storage_bucket": "omeal-app-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887673196468:android:657a37f18c80a8a5996ce1",
+        "android_client_info": {
+          "package_name": "com.example.omeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887673196468-40sj49devd07er8r88ti838kbnt8lja1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRItPho2cCUK_vy-9dI4A_KLYCnXrBeIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887673196468-40sj49devd07er8r88ti838kbnt8lja1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887673196468:android:318ec66d7caf876f996ce1",
+        "android_client_info": {
+          "package_name": "com.example.omealappproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887673196468-40sj49devd07er8r88ti838kbnt8lja1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRItPho2cCUK_vy-9dI4A_KLYCnXrBeIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887673196468-40sj49devd07er8r88ti838kbnt8lja1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

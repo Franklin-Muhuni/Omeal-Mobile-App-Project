@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itemView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/MenuView1"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/MenuView2"
+            android:textColor="#4A4A4A"
+            android:textSize="14sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView01"
+            android:layout_width="380dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="65dp"
+            android:contentDescription="@string/RestaurantView1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/divider"
+            tools:ignore="ImageContrastCheck">
+        </ImageView>
+
+        <Button
+            android:id="@+id/addtoCartbtn01"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/MenuView3">
+        </Button>
+
+        <Button
+            android:id="@+id/addtoCartbtn02"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/MenuView4">
+        </Button>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

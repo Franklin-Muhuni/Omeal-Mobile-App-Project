@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itemView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/CartP1"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView01"
+            android:layout_width="355dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="65dp"
+            android:contentDescription="@string/RestaurantView1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/divider"
+            tools:ignore="ImageContrastCheck">
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CartRec01"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginTop="85dp"
+        tools:listitem="@layout/rec2_items">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/imageView02"
+        android:layout_width="355dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="416dp"
+        android:contentDescription="@string/RestaurantView1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/divider"
+        tools:ignore="ImageContrastCheck">
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itemView2"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginRight="5dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/CartP2"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/CartP2"
+            android:textColor="#494848"
+            android:textSize="16sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/CartP3"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/CartP3"
+            android:textColor="#494848"
+            android:textSize="16sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="62dp"
+            android:text="@string/CartP4"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="62dp"
+            android:text="@string/CartP4"
+            android:textColor="#494848"
+            android:textSize="16sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/profileButton01"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/CartP5">
+        </Button>
+
+        <Button
+            android:id="@+id/orderButton01"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="160dp"
+            android:text="@string/CartP6">
+        </Button>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

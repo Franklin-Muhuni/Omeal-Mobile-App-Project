@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itemView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Profile1"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView01"
+            android:layout_width="355dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="65dp"
+            android:contentDescription="@string/RestaurantView1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/divider"
+            tools:ignore="ImageContrastCheck">
+        </ImageView>
+
+        <EditText
+            android:id="@+id/editTextEmailP"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="95dp"
+            android:ems="10"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextCNUMP"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="175dp"
+            android:ems="10"
+            android:hint="@string/Checkouthint1"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextDateP"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="230dp"
+            android:ems="10"
+            android:hint="@string/Checkouthint2"
+            android:inputType="date"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextINUMP"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="230dp"
+            android:ems="10"
+            android:hint="@string/Checkouthint3"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextuNameP"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="305dp"
+            android:ems="10"
+            android:hint="@string/Checkouthint4"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextCountryP"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="360dp"
+            android:ems="10"
+            android:hint="@string/Checkouthint5"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextAddressP"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="415dp"
+            android:ems="10"
+            android:hint="@string/Checkouthint6"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextCityP"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="470dp"
+            android:ems="10"
+            android:hint="@string/Checkouthint7"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextZIPP"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="470dp"
+            android:ems="10"
+            android:hint="@string/Checkouthint8"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextProvinceP"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="525dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/Checkouthint9"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/submitButton01"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="590dp"
+            android:text="@string/Profile2">
+        </Button>
+
+        <Button
+            android:id="@+id/submitButton02"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="207dp"
+            android:layout_marginTop="590dp"
+            android:text="@string/Profile3">
+        </Button>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
